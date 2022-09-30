@@ -1,6 +1,6 @@
 
 # Start mariadb docker container
-docker run  --rm  --detach --name db-mariadb -v mariadb-dati-2209:/var/lib/mysql --env MARIADB_ROOT_PASSWORD=root  -p 3306:3306 mariadb:latest
+
 
 
 # per fermare il container
